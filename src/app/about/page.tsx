@@ -8,15 +8,12 @@ export default function About() {
 
       <div className="mb-10 text-base sm:text-lg">
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
-          consequatur, harum pariatur provident rerum placeat magni voluptas
-          consectetur in exercitationem nobis aut, molestiae iure possimus
-          aspernatur nesciunt laudantium ab atque.
+          I am a developer with experience across the full development stack, and an interest in developer tooling!
+          I pride myself in being proficient with a variety of languages and frameworks, but I'm most experienced within the NodeJS, .NET, and Rust ecosystems.
         </p>
       </div>
 
       <Skills />
-
       <Experience />
     </div>
   )

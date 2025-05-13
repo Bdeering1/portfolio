@@ -6,6 +6,7 @@ export default function Experience() {
       <h2 className="mb-8 text-xl font-heading sm:text-2xl">Experience</h2>
 
       {PAST_ROLES.map((role, id) => {
+        if (!role.important && role.endDate != "Now") { return }
         return (
           <div className="mb-8" key={id}>
             <h3 className="text-lg font-heading sm:text-xl">
@@ -15,7 +16,11 @@ export default function Experience() {
             <p className="mb-4 mt-0.5 text-sm">
               {role.startDate} - {role.endDate}
             </p>
-            <p>{role.description}</p>
+            <ul>
+            {role.description.map((desc, id) => {
+              return <li className="mb-2" key={id}>{desc}</li>
+            })}
+            </ul>
           </div>
         )
       })}

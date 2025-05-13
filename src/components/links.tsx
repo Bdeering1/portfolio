@@ -1,28 +1,32 @@
 import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from '@/components/ui/tooltip'
+import {
   IconType,
   SiGithub,
-  SiGmail,
   SiLinkedin,
-  SiMedium,
+  SiRust,
 } from '@icons-pack/react-simple-icons'
 
 export default function Links() {
-  const links: { icon: IconType; href: string }[] = [
-    {
-      icon: SiGmail,
-      href: 'mailto:johndoe@gmail.com',
-    },
+  const links: { icon: IconType; name: string, href: string }[] = [
     {
       icon: SiGithub,
-      href: 'https://github.com/johndoe',
+      name: 'github',
+      href: 'https://github.com/Bdeering1',
     },
     {
       icon: SiLinkedin,
-      href: 'https://www.linkedin.com/in/johndoe/',
+      name: 'linkedin',
+      href: 'https://www.linkedin.com/in/bryn-deering/',
     },
     {
-      icon: SiMedium,
-      href: 'https://medium.com/@johndoe',
+      icon: SiRust,
+      name: 'crates.io',
+      href: 'https://crates.io/users/Bdeering1',
     },
   ]
 
@@ -31,7 +35,14 @@ export default function Links() {
       {links.map((link, id) => {
         return (
           <a target="_blank" key={id} href={link.href}>
-            <link.icon title="" />
+            <TooltipProvider key={id}>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <link.icon title="" />
+                </TooltipTrigger>
+                <TooltipContent>{link.name}</TooltipContent>
+              </Tooltip>
+            </TooltipProvider>
           </a>
         )
       })}

@@ -32,6 +32,7 @@ export default function Work() {
                 <p className="mt-2">{project.description}</p>
 
                 <div className="mt-8 grid grid-cols-2 gap-5">
+                  {project.liveLink != '' ?
                   <a
                     className="border-border bg-secondary-background text-foreground shadow-shadow rounded-base font-base hover:translate-x-boxShadowX hover:translate-y-boxShadowY cursor-pointer border-2 px-4 py-2 text-center text-sm transition-all hover:shadow-none sm:text-base"
                     href={project.liveLink}
@@ -39,6 +40,9 @@ export default function Work() {
                   >
                     Visit
                   </a>
+                  :
+                    <div/>
+                  }
                   <a
                     className="border-border bg-secondary-background text-foreground shadow-shadow rounded-base font-base hover:translate-x-boxShadowX hover:translate-y-boxShadowY cursor-pointer border-2 px-4 py-2 text-center text-sm transition-all hover:shadow-none sm:text-base"
                     href={project.repoUrl}
