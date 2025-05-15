@@ -10,9 +10,11 @@ export default function Certifications() {
       {CERTIFICATIONS.map((cert, id) => {
         return (
           <div className="mb-6" key={id}>
-            <Link
+            <a
               className=""
               href={cert.link}
+              target="_blank"
+              rel="noopener"
             >
               <div className="flex justify-between group py-2">
                 <h3 className="text-lg font-heading sm:text-xl">
@@ -25,7 +27,7 @@ export default function Certifications() {
                 <div className="bg-foreground h-[3px] w-0 group-hover:w-full transition-all duration-300"/>
                 </div>
               </div>
-            </Link>
+            </a>
             <p className="text-sm -translate-y-1.5">
               {cert.date}
             </p>
