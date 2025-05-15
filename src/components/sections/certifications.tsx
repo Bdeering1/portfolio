@@ -15,7 +15,7 @@ export default function Certifications() {
               className=""
               href={cert.link}
             >
-              <div className="flex justify-between group pt-2 pb-0.5">
+              <div className="flex justify-between group py-2">
                 <h3 className="text-lg font-heading sm:text-xl">
                   {cert.name}
                 </h3>
@@ -23,11 +23,11 @@ export default function Certifications() {
                 <h3 className="test-lg font-heading sm:text-xl">
                   {cert.institution}
                 </h3>
-                <div className="bg-border h-[2px] w-0 group-hover:w-full transition-all duration-200"/>
+                <div className="bg-foreground h-[3px] w-0 group-hover:w-full transition-all duration-300"/>
                 </div>
               </div>
             </Link>
-            <p className="text-sm">
+            <p className="text-sm -translate-y-1.5">
               {cert.date}
             </p>
           </div>

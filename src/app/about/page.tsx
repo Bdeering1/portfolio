@@ -9,7 +9,7 @@ export default function About() {
 
       <div className="mb-10 text-base sm:text-lg">
         <p>
-          I am a developer with experience across the full development stack, and an interest in developer tooling!
+          I'm always working on new projects or learning new tools.
           I pride myself in being proficient with a variety of languages and frameworks, but I'm most experienced within the NodeJS, .NET, and Rust ecosystems.
         </p>
       </div>

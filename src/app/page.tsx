@@ -8,6 +8,9 @@ export default function Home() {
       <div className="mt-8 text-base sm:text-lg">
         <p>Hi, my name is Bryn and I'm a developer based in Toronto.</p>
         <br />
+        <p>
+          I have experience across the full development stack, and an interest in developer tooling. Please visit the about section to learn more!
+        </p>
       </div>
 
       <Links />
