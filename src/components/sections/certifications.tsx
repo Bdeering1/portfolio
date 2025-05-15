@@ -1,5 +1,4 @@
 import { Link } from 'next-view-transitions'
-import { FaLink } from 'react-icons/fa'
 
 import CERTIFICATIONS from '@/data/certifications'
 
