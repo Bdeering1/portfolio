@@ -7,10 +7,17 @@ const PROJECTS: {
 }[] = [
   {
     name: 'Polykill',
-    description: 'Lightweight utility for removing unwanted dependencies and build artifacts from local projects.',
+    description: 'Lightweight utility for removing unwanted dependencies and build artifacts from local projects. Currently has ~25k downloads on the rust package registry.',
     liveLink: 'https://crates.io/crates/polykill',
     previewImage: '/polykill.png',
     repoUrl: 'https://github.com/Bdeering1/polykill',
+  },
+  {
+    name: 'Console Menu',
+    description: 'A simple yet powerful library for creating beautiful console menus in rust. Currently has ~8k downloads on the rust package registry.',
+    liveLink: 'https://crates.io/crates/console-menu',
+    previewImage: '/console-menu.png',
+    repoUrl: 'https://github.com/Bdeering1/console-menu',
   },
   {
     name: 'Visual Sorting',
@@ -20,15 +27,8 @@ const PROJECTS: {
     repoUrl: 'https://github.com/Bdeering1/visual-sorting',
   },
   {
-    name: 'Console Menu',
-    description: 'A simple yet powerful library for creating beautiful console menus in rust.',
-    liveLink: 'https://crates.io/crates/console-menu',
-    previewImage: '/console-menu.png',
-    repoUrl: 'https://github.com/Bdeering1/console-menu',
-  },
-  {
     name: 'Mandelbrot',
-    description: 'Render and explore the Mandelbrot fractal.',
+    description: 'Full stack ASP.NET application for computing and viewing the Mandelbrot set.',
     liveLink: '',
     previewImage: '/mandelbrot.png',
     repoUrl: 'https://github.com/Bdeering1/mandelbrot',
