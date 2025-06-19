@@ -6,6 +6,12 @@ const CERTIFICATIONS: {
 }[] = [
   {
       institution: "LinkedIn Learning",
+      name: "Introduction to Artificial Intelligence",
+      date: "June 2025",
+      link: "https://www.linkedin.com/learning/certificates/bf34af35bcd674e79516de9d1fb6dfd2f75406e1fde36dccd424c9e34a592606",
+  },
+  {
+      institution: "LinkedIn Learning",
       name: "C++ Templates and the STL",
       date: "June 2024",
       link: "https://www.linkedin.com/learning/certificates/188f8a8c899d94c160f42875f5a0e423620ecdb3398022871ca0f8d393661925?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BlwcmnLc9TkKSEfpTfGeCnQ%3D%3D",
