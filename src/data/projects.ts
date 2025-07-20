@@ -7,7 +7,7 @@ const PROJECTS: {
 }[] = [
   {
     name: 'Polykill',
-    description: 'Lightweight utility for removing unwanted dependencies and build artifacts from local projects. Currently has ~27k downloads on the rust package registry.',
+    description: 'Lightweight utility for removing unwanted dependencies and build artifacts from local projects. Currently has ~28k downloads on the rust package registry.',
     liveLink: 'https://crates.io/crates/polykill',
     previewImage: '/polykill.png',
     repoUrl: 'https://github.com/Bdeering1/polykill',

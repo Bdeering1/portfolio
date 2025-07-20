@@ -8,6 +8,18 @@ const PAST_ROLES: {
 }[] = [
   {
     company: 'Rexdale Alliance Church',
+    role: 'Training Platform Project Developer',
+    description: [
+        'Research learning management system solutions.',
+        'Develop new training platform and integrate with existing infrastructure.',
+        'Migrate course materials to new training platform.',
+    ],
+    startDate: 'June 2025',
+    endDate: 'Now',
+    important: true,
+  },
+  {
+    company: 'Rexdale Alliance Church',
     role: 'Front of House Audio Engineer',
     description: [
         'Patch audio inputs and outputs, set up microphones, monitors, and cables.',
