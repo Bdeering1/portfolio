@@ -10,9 +10,9 @@ const PAST_ROLES: {
     company: 'Rexdale Alliance Church',
     role: 'Training Platform Project Developer',
     description: [
-        'Research learning management system solutions.',
-        'Develop new training platform and integrate with existing infrastructure.',
-        'Migrate course materials to new training platform.',
+        'Research cloud-based and open-source learning management system solutions to replace existing platform.',
+        'Implement a new training platform, including configuration of hosting and deployment and integrate with the organization’s existing infrastructure.',
+        'Migrate existing courses materials and digital assets to the newly implemented training platform.',
     ],
     startDate: 'June 2025',
     endDate: 'Now',
@@ -23,7 +23,7 @@ const PAST_ROLES: {
     role: 'Front of House Audio Engineer',
     description: [
         'Patch audio inputs and outputs, set up microphones, monitors, and cables.',
-        'Manage audio equalization, dynamics, and levels.',
+        'Manage audio equalization, dynamics, and levels in house, monitors, and livestream.',
     ],
     startDate: 'December 2024',
     endDate: 'Now',
