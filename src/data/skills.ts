@@ -9,6 +9,7 @@ import {
   SiDotnet,
   SiFlask,
   SiGit,
+  SiGnubash,
   SiGo,
   SiHtml5,
   SiJavascript,
@@ -66,8 +67,9 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType; color?: 
     {
       field: 'Other Tools',
       skills: [
-        { skill: 'git', icon: SiGit },
+        { skill: 'bash', icon: SiGnubash },
         { skill: 'linux', icon: SiLinux },
+        { skill: 'git', icon: SiGit },
         { skill: 'neovim', icon: SiNeovim },
       ]
     }
