@@ -7,14 +7,21 @@ const PROJECTS: {
 }[] = [
   {
     name: 'Polykill',
-    description: 'Lightweight utility for removing unwanted dependencies and build artifacts from local projects. Currently has ~28k downloads on the rust package registry.',
+    description: 'Lightweight utility for removing unwanted dependencies and build artifacts from local projects. Currently has over 30k downloads on the rust package registry.',
     liveLink: 'https://crates.io/crates/polykill',
     previewImage: '/polykill.png',
     repoUrl: 'https://github.com/Bdeering1/polykill',
   },
   {
+    name: 'The Lemur Programming Language',
+    description: 'Lemur is an experimental programming language built for writing clear, expressive code quickly.',
+    liveLink: '',
+    previewImage: '/lemur-gh-v10.png',
+    repoUrl: 'https://github.com/Bdeering1/lemur-lang',
+  },
+  {
     name: 'Console Menu',
-    description: 'A simple yet powerful library for creating beautiful console menus in rust. Currently has ~8k downloads on the rust package registry.',
+    description: 'A simple yet powerful library for creating beautiful console menus in rust. Currently has over 10k downloads on the rust package registry.',
     liveLink: 'https://crates.io/crates/console-menu',
     previewImage: '/console-menu.png',
     repoUrl: 'https://github.com/Bdeering1/console-menu',

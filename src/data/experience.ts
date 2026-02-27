@@ -7,15 +7,27 @@ const PAST_ROLES: {
   important?: boolean
 }[] = [
   {
+    company: 'Genrep Limited',
+    role: 'Information Technology Specialist',
+    description: [
+      'Research mobile device management solutions, propose a solution and facilitate the migration of company devices to the new service.',
+      'Configure workstations and mobile devices for employees and manage a variety of other technical resources.',
+      'Manage Microsoft Active Directory and Office 365 accounts and licenses.',
+    ],
+    startDate: 'January 2026',
+    endDate: 'Now',
+    important: true,
+  },
+  {
     company: 'Rexdale Alliance Church',
     role: 'Training Platform Project Developer',
     description: [
-        'Research cloud-based and open-source learning management system solutions to replace existing platform.',
-        'Implement a new training platform, including configuration of hosting and deployment and integrate with the organization’s existing infrastructure.',
-        'Migrate existing courses materials and digital assets to the newly implemented training platform.',
+        'Researched cloud-based and open-source learning management system solutions to replace existing platform.',
+        'Implemented a new training platform, including configuration of hosting and deployment and integrate with the organization’s existing infrastructure.',
+        'Migrated existing courses materials and digital assets to the newly implemented training platform.',
     ],
     startDate: 'June 2025',
-    endDate: 'Now',
+    endDate: 'December 2025',
     important: true,
   },
   {
