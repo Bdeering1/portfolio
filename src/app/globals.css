@@ -22,7 +22,6 @@
 }
 
 .dark {
-  --background: oklch(26.86% 0.0327 60.06);
   --background: oklch(0.2755 0.037 260.02);
   --secondary-background: oklch(23.93% 0 0);
   --foreground: oklch(92.49% 0 0);

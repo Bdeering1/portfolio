@@ -20,6 +20,16 @@ const PAST_ROLES: {
   },
   {
     company: 'Rexdale Alliance Church',
+    role: 'Front of House Audio Engineer',
+    description: [
+        'Patch audio inputs and outputs, set up microphones, monitors, and cables.',
+        'Manage audio equalization, dynamics, and levels in house, monitors, and livestream.',
+    ],
+    startDate: 'December 2024',
+    endDate: 'Now',
+  },
+  {
+    company: 'Rexdale Alliance Church',
     role: 'Training Platform Project Developer',
     description: [
         'Researched cloud-based and open-source learning management system solutions to replace existing platform.',
@@ -29,16 +39,6 @@ const PAST_ROLES: {
     startDate: 'June 2025',
     endDate: 'December 2025',
     important: true,
-  },
-  {
-    company: 'Rexdale Alliance Church',
-    role: 'Front of House Audio Engineer',
-    description: [
-        'Patch audio inputs and outputs, set up microphones, monitors, and cables.',
-        'Manage audio equalization, dynamics, and levels in house, monitors, and livestream.',
-    ],
-    startDate: 'December 2024',
-    endDate: 'Now',
   },
   {
     company: 'Genrep Limited',
@@ -85,7 +85,6 @@ const PAST_ROLES: {
     ],
     startDate: 'September 2020',
     endDate: 'December 2020',
-    important: true,
   },
   {
     company: 'Guelph Hockeuy Referees Association',
