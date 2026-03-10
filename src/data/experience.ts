@@ -19,6 +19,15 @@ const PAST_ROLES: {
     important: true,
   },
   {
+    company: 'City of Markham',
+    role: 'Backstage Technician III',
+    description: [
+      'Manage audio for front of house or on-stage monitors and aid handle event setup and teardown tasks at the Flato Markham Theatre.',
+    ],
+    startDate: 'February 2026',
+    endDate: 'Now',
+  },
+  {
     company: 'Rexdale Alliance Church',
     role: 'Front of House Audio Engineer',
     description: [

@@ -5,6 +5,12 @@ const CERTIFICATIONS: {
   link: string
 }[] = [
   {
+      institution: "Anthropic Education",
+      name: "Claude Code in Action",
+      date: "March 2026",
+      link: "https://verify.skilljar.com/c/hzfs97ccyby2",
+  },
+  {
       institution: "LinkedIn Learning",
       name: "Introduction to Artificial Intelligence",
       date: "June 2025",
