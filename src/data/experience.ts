@@ -10,9 +10,9 @@ const PAST_ROLES: {
     company: 'Genrep Limited',
     role: 'Information Technology Specialist',
     description: [
-      'Research mobile device management solutions, propose a solution and facilitate the migration of company devices to the new service.',
-      'Configure workstations and mobile devices for employees and manage a variety of other technical resources.',
-      'Manage Microsoft Active Directory and Office 365 accounts and licenses.',
+      'Build Power Apps and Office 365 automations replacing manual PDF-based reporting with digital forms and structured data retrieval, integrating with existing enterprise infrastructure.',
+      'Lead evaluation and migration of company devices to a new MDM platform, from requirements analysis through full deployment.',
+      'Manage Microsoft Active Directory and Microsoft 365 accounts, licenses, and device configurations.'
     ],
     startDate: 'January 2026',
     endDate: 'Now',
@@ -41,9 +41,10 @@ const PAST_ROLES: {
     company: 'Rexdale Alliance Church',
     role: 'Training Platform Project Developer',
     description: [
-        'Researched cloud-based and open-source learning management system solutions to replace existing platform.',
-        'Implemented a new training platform, including configuration of hosting and deployment and integrate with the organization’s existing infrastructure.',
-        'Migrated existing courses materials and digital assets to the newly implemented training platform.',
+        'Researched and selected Moodle as a replacement LMS for the organization’s existing training site.',
+        'Wrote a Bash script to provision a production Moodle instance on a Debian VPS from scratch — covering Apache 2, PostgreSQL, SSL, UFW firewall, Fail2Ban, and IPv4/IPv6 dual-stack configuration.',
+        'Developed a custom PHP plugin integrating Moodle with Planning Centre People, syncing user accounts and course completion data.',
+        'Migrated course materials and established workflows for content creation by installing relevant plugins, building course templates, and writing tailored Moodle documentation for the organization.'
     ],
     startDate: 'June 2025',
     endDate: 'December 2025',
@@ -53,10 +54,9 @@ const PAST_ROLES: {
     company: 'Genrep Limited',
     role: 'Information Technology Technical Support',
     description: [
-      'Modified HTML, CSS, and PHP code to fix bugs and create a more responsive experience for users of the company’s customer facing Wordpress site.',
-      'Researched and analyzed help desk solutions to facilitate internal IT support, presented findings and configured a new help desk system including Microsoft SSO and Teams integrations.',
-      'Created Microsoft Exchange mailboxes to better organize emails and configured spam filtration rules leading to a significant reduction in phishing emails received by employees.',
-      'Set up accounts through Microsoft Active Directory and assigned licenses for Office 365 services.',
+      'Researched help desk solutions, presented findings, and configured a new system with Microsoft SSO and Teams integrations.',
+      'Configured Exchange mailboxes and spam filtration rules, reducing phishing emails received by employees.',
+      'Fixed bugs and improved responsiveness of the company’s customer-facing WordPress site (HTML, CSS, PHP).'
     ],
     startDate: 'July 2023',
     endDate: 'September 2023',
@@ -66,10 +66,10 @@ const PAST_ROLES: {
     company: 'Bastian Solutions',
     role: 'Student Software Developer (Co-op)',
     description: [
-      'Developed a scalable metrics microservice and REST API using C# and ASP.NET to facilitate database access and handle metric aggregations, ensuring adherence to the SOLID principles of object oriented design. This also involved migrating a LiteDB repository to MongoDB.',
-      'Designed and implemented complex data aggregation logic to turn raw metrics into useful data, which contributed to several bugs being found and fixed in the production system.',
-      'Implemented custom object pools in order to adhere to the dependency inversion principle, resulting in a more maintainable solution for managing the lifecycle of high volume objects while mitigating the effects of garbage collection on performance.',
-      'Created various data visualizations to view metrics data using Blazor Web Assembly.',
+      'Built a scalable metrics microservice and REST API in C# and ASP.NET, applying SOLID principles throughout.',
+      'Migrated the data layer from LiteDB to MongoDB and designed aggregation logic that exposed several production bugs.',
+      'Implemented custom object pools to reduce GC pressure and improve throughput for high-volume objects, using dependency inversion to keep the solution maintainable.',
+      'Built Blazor WebAssembly dashboards to display simulation run metrics, used internally and in client demos.'
     ],
     startDate: 'January 2022',
     endDate: 'August 2022',
