@@ -20,13 +20,6 @@ const PROJECTS: {
     repoUrl: 'https://github.com/Bdeering1/lemur-lang',
   },
   {
-    name: 'Console Menu',
-    description: 'A simple yet powerful library for creating beautiful console menus in rust. Currently has over 10k downloads on the rust package registry.',
-    liveLink: 'https://crates.io/crates/console-menu',
-    previewImage: '/console-menu.png',
-    repoUrl: 'https://github.com/Bdeering1/console-menu',
-  },
-  {
     name: 'Visual Sorting',
     description: 'Visual and interactive demonstration of sorting algorithms.',
     liveLink: 'https://bdeering1.github.io/visual-sorting/',
@@ -46,6 +39,13 @@ const PROJECTS: {
     liveLink: '',
     previewImage: '/engine-crabs.png',
     repoUrl: 'https://github.com/Bdeering1/engine',
+  },
+  {
+    name: 'Console Menu',
+    description: 'A simple yet powerful library for creating beautiful console menus in rust. Currently has over 10k downloads on the rust package registry.',
+    liveLink: 'https://crates.io/crates/console-menu',
+    previewImage: '/console-menu.png',
+    repoUrl: 'https://github.com/Bdeering1/console-menu',
   },
 ]
 

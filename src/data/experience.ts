@@ -42,7 +42,7 @@ const PAST_ROLES: {
     role: 'Training Platform Project Developer',
     description: [
         'Researched and selected Moodle as a replacement LMS for the organization’s existing training site.',
-        'Wrote a Bash script to provision a production Moodle instance on a Debian VPS from scratch — covering Apache 2, PostgreSQL, SSL, UFW firewall, Fail2Ban, and IPv4/IPv6 dual-stack configuration.',
+        'Wrote a Bash script to provision a production Moodle instance on a Debian VPS from scratch. Included Apache 2, PostgreSQL, SSL, UFW firewall, Fail2Ban, and IPv4/IPv6 dual-stack configuration.',
         'Developed a custom PHP plugin integrating Moodle with Planning Centre People, syncing user accounts and course completion data.',
         'Migrated course materials and established workflows for content creation by installing relevant plugins, building course templates, and writing tailored Moodle documentation for the organization.'
     ],

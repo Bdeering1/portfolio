@@ -9,8 +9,7 @@ export default function About() {
 
       <div className="mb-10 text-base sm:text-lg">
         <p>
-          I'm always working on new projects or learning new tools.
-          I pride myself in being proficient with a variety of languages and frameworks, but I'm most experienced within the NodeJS, .NET, and Rust ecosystems.
+          I'm a CS graduate with experience building backend services, developer tooling, and infrastructure. I'm experienced with Go, Rust, C, C#, and Python including containerizing applications and deploying to cloud-based Linux environments.
         </p>
       </div>
 
