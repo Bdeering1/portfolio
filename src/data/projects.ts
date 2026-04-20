@@ -14,7 +14,7 @@ const PROJECTS: {
   },
   {
     name: 'The Lemur Programming Language',
-    description: 'Lemur is an experimental programming language built for writing clear, expressive code quickly.',
+    description: 'Interpreted language written in Go. Includes a hand-written lexer, parser, AST, and tree-walking interpreter. Functional style and a built-in REPL.',
     liveLink: '',
     previewImage: '/lemur-gh-v10.png',
     repoUrl: 'https://github.com/Bdeering1/lemur-lang',
